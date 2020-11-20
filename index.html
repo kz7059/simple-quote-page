@@ -3,18 +3,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One" rel="stylesheet">
-  
+  <link rel="stylesheet" href="/node_modules/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <title>Freedom</title>
 </head>
 <body>
-
+  
   <div class="wrapper">
     <p class="quote">"The freedom of Mankind does not lie in the fact that we can do what we want, but that we do not have to do that which we do not want."</p>
     <p class="author"><small>– Jean-Jacques Rousseau</small></p>
   </div>
-    
+  <ul>
+    <li><a class="brand" href="https://github.com/kz7059/simple-quote-page.git">kz7059</a></li>
+      <div class="dropup">
+        <a href="javascript:void(0)" class="dropbtn">
+          <i class="fas fa-caret-left"></i>
+          <i class="flag-icon flag-icon-us"></i>
+        </a>
+        <li class="dropup-content">
+          <a href="#"><i class="flag-icon flag-icon-hu"></i></a>
+          <a href="#"><i class="flag-icon flag-icon-es"></i></a>
+          <a href="#"><i class="flag-icon flag-icon-us"></i></a>
+        </li>
+    </div>
+  </ul>
+  <!--
+  <nav class="navbar navbar-brand navbar-expand-sm">
+      <a href="https://github.com/kz7059/simple-quote-page.git">kz7059</a>
+      <div class="dropup dropleft float-right navbar-nav">
+        <a class="a-navbar dropdown-toggle" href="#" data-toggle="dropdown"><i class="flag-icon flag-icon-us"></i><span class="caret"></span></a>
+        <div class="dropup-content nav-item">
+          <a class="nav-link" href="#"><i class="flag-icon flag-icon-hu"></i> Magyar</a>
+          <a class="nav-link" href="#"><i class="flag-icon flag-icon-es"></i> Español</a>
+          <a class="nav-link" href="#"><i class="flag-icon flag-icon-us"></i> English</a>
+        </div>
+      </div>
+   </nav>
+
+-- brand-navbar
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    - Brand/logo -
+    <a class="navbar-brand" href="#">Logo</a>
+  
+    - Links - 
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+    </ul>
+  </nav>
+->
+-- <footer> -codeberry-
+    <div class="footer">
+      <p>By</p>
+      <a href="https://github.com/kz7059/simple-quote-page.git">kz7059</a>
+      <ul class="language-selector">
+              <li class="dropup">
+                  <a class="a-navbar dropdown-toggle" href="#" data-toggle="dropdown"><i class="flag-icon flag-icon-us"></i> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li>
+                  <a href="#" ><i class="flag-icon flag-icon-de"></i> Deutsch</a>
+                </li>
+                <li>
+                  <a href="#"><i class="flag-icon flag-icon-us"></i> English</a>
+                </li>
+                <li>
+                  <a href="#"><i class="flag-icon flag-icon-es"></i> Español</a>
+                </li>
+                <li>
+                  <a href="#"><i class="flag-icon flag-icon-hu"></i> Magyar</a>
+                </li>
+                <li>
+                  <a href="#"><i class="flag-icon flag-icon-jp"></i> 日本語</a>
+                </li>
+                </ul>
+              </li>
+          </ul>
+    </div>
+  </footer>
+-->
 </body>
 </html>
